@@ -1,0 +1,4 @@
+This project is based on the dataset from the Santander Kaggle competition:
+https://www.kaggle.com/c/santander-product-recommendation/overview
+
+The code and reports are based on the requirements from one of my classes -the biggest one was the need to reduce the dataset to a dataset of less than 1GB.
