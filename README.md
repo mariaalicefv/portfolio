@@ -1,2 +1,1 @@
-# portfolio
-Maria Alice F. Vieira's porfolio of work samples
+# Maria Alice F. Vieira | Portfolio of Projects and Work Samples
