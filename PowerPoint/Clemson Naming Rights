@@ -1,0 +1,28 @@
+This Power Point comes from a case study where a College Athletics Department seeks a go-to-market strategy for selling their football stadium's naming rights. 
+The assignment required an evaluation of the market rate for these rights, identification of potential corporate partners, and reasons why these entities would benefit from a partnership.
+The Report Requirements:
+1.Develop and detail an analytical framework to assess the naming rights' value.
+2.Offer a concise recommendation of potential partners and categories, explaining the mutual benefits of such partnerships.
+
+My school of Choice was Clemson University and for the valuation the final value was reached by using a combination of machine learning models.
+
+VALUATION METHODOLOGY
+
+I used viewership data and some additional data points I got, such as the school city population and stadium capacity
+Then I combined the data by teams but since many of these variables are colinear, I tested a few models to select the features a would use for the final prediction model.
+The best performing model was the PCA – principal component analysis, which reduces the variables in a way that you still have important information. In other words, it identifies the variables that explain most variance between the final result.
+
+Once I had the features, I started the predictions
+The model that worked the best was Gradient Boosting. It that starts with a weak model that doesn’t have much predictable power, and then it keeps adding models to the residuals of the previous model trying to correct the errors. 
+It then combines the predictions of multiple weak learners through weighted averaging. Gradient Boosting gradually improves the overall model's predictive accuracy and was the model with the lowest mean squared error
+
+POTENTIAL SPONSOR METHODOLOGY
+I used a few different filtering techniques once I had the database combined with clustering techniques to put similar companies together.
+The clustering technique I initially used was density-based spatial clustering because it performs well on identifying subgroups even if companies are similar,
+it handles outliers and noise on the data and there is no need to predefine the number of groups.
+
+The filtering was done as per below:
+1. Location - local companies were preffered - in the area of Greenville, Anderson and Spartanburg
+2. Revenue - over 100M
+3. Industry - top industries with stadium naming rights deals across division 1
+4. Number of alumni working in the companies to determine if it was a fit
