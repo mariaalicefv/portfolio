@@ -1,0 +1,5 @@
+This project had the goal to analyze the stats in college basketball
+The original excel was connected to the API providing the stats -since I don't have access to it anymore, this one is connected
+to an excel file extracted from the API. 
+The spreadsheet includes macros and Power Querry formulas to assist with visualization and the user can toggle between 
+different stats and see the difference between teams, conferences, conference games, non-conference games and all games
