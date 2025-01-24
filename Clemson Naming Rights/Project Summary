@@ -7,6 +7,11 @@ For this project, I aimed to introduce a new valuation methodology for naming ri
 valuations are conducted using regression models; however, I wanted to enhance this approach by incorporating machine 
 learning models.
 
+**PROJECT FILES:**
+The project consists of two files:
+Python Notebook – Contains the code used to generate the valuation results and predictions.
+PowerPoint Presentation – Used to present the case study findings, including the methodology, results, and recommendations.
+
 **CONCLUSION:** 
 The proposed methodology produced results comparable to those obtained manually using Excel-based regression analysis. 
 The key advantage of using machine learning is that it significantly reduces time spent on analysis and allows for 
