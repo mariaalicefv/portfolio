@@ -1,28 +1,49 @@
-This project comes from a case study where a College Athletics Department seeks a go-to-market strategy for selling their football stadium's naming rights. 
-The assignment required an evaluation of the market rate for these rights, identification of potential corporate partners, and reasons why these entities would benefit from a partnership.
-The Report Requirements:
-1.Develop and detail an analytical framework to assess the naming rights' value.
-2.Offer a concise recommendation of potential partners and categories, explaining the mutual benefits of such partnerships.
+**OBJECTIVE:**
+This project originates from a case study where a College Athletics Department seeks a go-to-market strategy to sell
+the naming rights of their football stadium.
+The assignment required an evaluation of the market value for these rights, identification of potential corporate partners,
+and an analysis of why these entities would benefit from the partnership.
+For this project, I aimed to introduce a new valuation methodology for naming rights in the sports industry. Traditionally,
+valuations are conducted using regression models; however, I wanted to enhance this approach by incorporating machine 
+learning models.
 
-My school of Choice was Clemson University and for the valuation the final value was reached by using a combination of machine learning models.
+**CONCLUSION:** 
+The proposed methodology produced results comparable to those obtained manually using Excel-based regression analysis. 
+The key advantage of using machine learning is that it significantly reduces time spent on analysis and allows for 
+continuous improvement by integrating additional features as more data becomes available—without altering the core code. 
+This makes the model scalable and adaptable.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Report Requirements:
+1.Develop and detail an analytical framework to assess the naming rights' value.
+2.Provide a concise recommendation of potential partners and sponsorship categories, highlighting the mutual benefits
+of these partnerships.
 
 VALUATION METHODOLOGY
 
-I used viewership data and some additional data points I got, such as the school city population and stadium capacity
-Then I combined the data by teams but since many of these variables are colinear, I tested a few models to select the features a would use for the final prediction model.
-The best performing model was the PCA – principal component analysis, which reduces the variables in a way that you still have important information. In other words, it identifies the variables that explain most variance between the final result.
+My school of choice was Clemson University, and the final valuation was derived using a combination of machine learning 
+models.
+I utilized viewership data along with additional factors such as the school’s city population and stadium capacity. 
+The data was aggregated by team, but given the high collinearity among variables, I tested several models to determine
+the most relevant features for the final prediction model. The best-performing model for feature selection was 
+Principal Component Analysis (PCA), which reduces the number of variables while retaining the most critical information. 
+Essentially, it identifies the variables that explain the greatest variance in the final outcome.
 
-Once I had the features, I started the predictions
-The model that worked the best was Gradient Boosting. It that starts with a weak model that doesn’t have much predictable power, and then it keeps adding models to the residuals of the previous model trying to correct the errors. 
-It then combines the predictions of multiple weak learners through weighted averaging. Gradient Boosting gradually improves the overall model's predictive accuracy and was the model with the lowest mean squared error
+Once the key features were selected, I proceeded with the predictions.
+The model that generated the best results was Gradient Boosting, an ensemble learning technique that begins with a weak 
+model with minimal predictive power. It iteratively adds models to correct residual errors, gradually enhancing the overall 
+predictive accuracy. The model aggregates predictions from multiple weak learners using weighted averaging. Gradient Boosting 
+achieved the lowest mean squared error (MSE), making it the most effective model for this project.
 
 POTENTIAL SPONSOR METHODOLOGY
-I used a few different filtering techniques once I had the database combined with clustering techniques to put similar companies together.
-The clustering technique I initially used was density-based spatial clustering because it performs well on identifying subgroups even if companies are similar,
-it handles outliers and noise on the data and there is no need to predefine the number of groups.
+To identify potential sponsors, I applied various filtering techniques and clustering methods to group similar companies.
+Initially, I used Density-Based Spatial Clustering (DBSCAN), which effectively identifies subgroups even within similar companies. 
+This method handles outliers and noise in the data and does not require predefining the number of clusters.
 
-The filtering was done as per below:
-1. Location - local companies were preffered - in the area of Greenville, Anderson and Spartanburg
-2. Revenue - over 100M
-3. Industry - top industries with stadium naming rights deals across division 1
-4. Number of alumni working in the companies to determine if it was a fit
+The filtering criteria included:
+
+Location: Preference was given to local companies within the Greenville, Anderson, and Spartanburg areas.
+Revenue: Companies with annual revenue exceeding $100M were prioritized.
+Industry: Focused on industries commonly involved in stadium naming rights deals across Division 1 athletics.
+Alumni Presence: Evaluated the number of Clemson alumni employed at these companies to assess their potential fit.
