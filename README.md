@@ -10,34 +10,34 @@
 This repository showcases selected projects in Python, PowerPoint, and Excel, demonstrating my analytical and problem-solving skills.  
 
 ### Repository Structure:
+📂 Maria_Alice_Portfolio/ │ 
 
-├── README.md  
-│  
-│  
-├── Vieira, Maria Alice.pdf             <- Resume  
-│  
-│  
-├── Clemson Naming Rights               <- Naming Rights Valueation for Clemson University's football stadium  
+├── 📄 Vieira, Maria Alice.pdf - Resume  
 │   
-│     ├── CLEMSON_NamingRights.pdf      <- PowerPoint used to present the case study findings, including the methodology, results, and recommendations  
-│     ├── Project Summary               <- Summary of the Clemson Naming Rights Project, explaining objective, conclusion and methodology  
-│     ├── clemson_nr.ipynb              <- Python notebook containing the code used to generate the valuation results and predictions  
+│── 📁 Clemson_Naming_Rights/  
+│  Focuses on valuing stadium naming rights using machine learning techniques.  
+│  Contains a PowerPoint presentation, project summary, and Python code.  
+│ ├─ 📄 CLEMSON_NamingRights.pdf - PowerPoint presenting the case study findings, methodology, and recommendations  
+│ ├─ 📄 Project_Summary.md - Summary of the project, including objectives, conclusions, and methodology  
+│ ├─ 📜 clemson_nr.ipynb - Python notebook with the valuation model and predictions  
 │  
 │  
-├── College_Basketball_Stats            <- Analyze college basketball statistics to understand the factors influencing the number of fouls and free throws  
+│── 📁 College_Basketball_Stats/  
+│  Analyzes basketball stats to understand foul and free throw patterns.  
+│  Includes an Excel spreadsheet with macros and Power Query tools.  
+│ ├─ 📄 Project_Summary.md - Summary of the project, including objectives, conclusions, and methodology  
+│ ├─ 📊 MBB2024.xlsm - Excel spreadsheet with macros and Power Query for data visualization  
 │  
-│     ├── Project Summary               <- Summary of the College Basketball Stats Project, explaining objective, conclusion and methodology  
-│     ├── MBB2024.xlsm                  <- Excel Spreadsheet – Contains macros and Power Query formulas to facilitate data visualization and comparison across various categories  
 │  
-│  
-├── Santander_Product_Recommendation    <- Project based on the dataset from the Santander Kaggle competition. The goal was to develop a machine learning model to generate product recommendations for customers  
-│   
-│     ├── Project Summary               <- Summary of the Santander_Product_Recommendation Project, explaining objective, conclusion and methodology  
-│     ├── Santander - Final Report.pdf  <- A comprehensive report detailing the methodology, dataset, and results  
-│     ├── santander_1.ipynb             <- Python notebook containing data loading, transformation, missing values treatment, and train-test split  
-│     ├── santander_2.ipynb             <- Python notebook containing exploratory Data Analysis (EDA)  
-│     ├── santander_3.ipynb             <- Python notebook containing data processing, categorical value handling, and feature engineering  
-│     ├── santander_4.ipynb             <- Python notebook containing modeling approach, feature importance analysis, and LIME interpretability example  
+│── 📁 Santander_Product_Recommendation/  
+│  Kaggle competition project aimed at improving customer recommendations.  
+│  Features data preprocessing, modeling, and a detailed report  
+│ ├─ 📄 Project_Summary.md - Summary of the project, including objectives, conclusions, and methodology  
+│ ├─ 📄 Santander_Final_Report.pdf - Detailed report on methodology, dataset, and results  
+│ ├─ 📜 santander_1.ipynb - Python notebook containing data loading, transformation, missing values treatment, and train-test split  
+│ ├─ 📜 santander_2.ipynb - Python notebook containing exploratory Data Analysis (EDA)  
+│ ├─ 📜 santander_3.ipynb - Python notebook containing data processing, categorical values, and feature engineering  
+│ ├─ 📜 santander_4.ipynb - Python notebook containing modeling, feature importance analysis, and interpretability  
 
 
 ### Skills Highlighted in This Portfolio:
@@ -45,4 +45,7 @@ This repository showcases selected projects in Python, PowerPoint, and Excel, de
 - **Data Visualization:** Power BI, Matplotlib, Seaborn  
 - **Tools:** Excel (Power Query, Macros, VBA), Jupyter Notebook  
 - **Machine Learning:** Regression, Classification, Recommendation Systems  
-- **Project Management:** Analytical framework design, reporting, client presentation  
+- **Project Management:** Analytical framework design, reporting, client presentation
+
+For any questions, feel free to contact me at mariaalicefv@hotmail.com
+
