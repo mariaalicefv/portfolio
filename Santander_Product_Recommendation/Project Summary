@@ -1,9 +1,77 @@
-This project is based on the dataset from the Santander Kaggle competition:
-https://www.kaggle.com/c/santander-product-recommendation/overview
+**OBJECTIVE:**  
+This project is based on the dataset from the Santander Kaggle competition 
+(https://www.kaggle.com/c/santander-product-recommendation/overview). Santander Bank’s recommendation system 
+currently faces inefficiencies, such as irrelevant recommendations and overlooked customer needs, resulting in 
+low engagement and lost revenue opportunities.  
 
-The code and reports are based on the requirements from one of my classes -the biggest one was the need to reduce the dataset to a dataset of less than 1GB.
+The primary goal of this project was to develop a machine learning-based personalized product recommendation 
+system to predict the likelihood of customers purchasing specific financial products. The system aimed to:  
+1. Provide customers with relevant product suggestions tailored to their unique profiles and needs.  
+2. Help Santander improve product adoption rates by focusing marketing efforts on the most likely prospects.  
 
-sandanter_1: Load and Transform the data; NA values treatment; split dataset into train and test
-santander_2: EDA 
-santander_3: Data Processing; categorical values; feature engineering
-santander_4: Modeling approach; Feature Importance Analysis; LIME example
+**PROJECT FILES:**  
+1. Python Notebooks: 
+   - `santander_1.ipynb`: Data loading, transformation, missing values treatment, and train-test split.  
+   - `santander_2.ipynb`: Exploratory Data Analysis (EDA).  
+   - `santander_3.ipynb`: Data processing, categorical value handling, and feature engineering.  
+   - `santander_4.ipynb`: Modeling approach, feature importance analysis, and LIME interpretability example.  
+
+2. Final Project Report:
+   - A comprehensive report detailing the methodology, dataset, and results.  
+
+**CONCLUSION:**  
+This project highlights the value of machine learning in revolutionizing Santander’s product recommendation 
+strategy. By leveraging customer data and predictive analytics, the bank can offer personalized suggestions, 
+enhancing customer experience and driving substantial revenue growth.
+The ensemble model achieved the best performance.
+
+Key outcomes include:  
+- Revenue Growth Potential: The final model has the potential to increase annual revenue by $20 million 
+through improved product targeting.  
+- Actionable Insights: The model identifies the top three most probable products for each customer, enabling
+targeted marketing campaigns with higher conversion rates.  
+- Practical Implementation: After deployment, continuous evaluation of the model's performance would be required
+to fine-tune recommendations and assess accuracy.  
+- Business Value:
+  - Customer-Centric Growth: Personalized recommendations enhance customer satisfaction and loyalty by offering
+tailored suggestions instead of generic ones.  
+  - Operational Efficiency: Automating the recommendation process reduces manual efforts and saves labor hours.  
+  - Strategic Insights: The recommendation system serves as a powerful tool to better understand customer behavior 
+and preferences.  
+
+-------------------------------------------------------------------------------------------------------------------
+
+**Methodology:**  
+The project followed a structured approach to achieve an optimized recommendation system, including:  
+
+1. Data Preprocessing:
+   - Handling missing values
+   - Detecting and treating outliers
+   - Standardizing features for consistency
+
+2. Exploratory Data Analysis (EDA):
+   - Understanding data distributions and relationships
+   - Identifying trends and key patterns
+
+3. Feature Engineering: 
+   - Creating meaningful features to enhance model performance
+
+4. Modeling:
+   - Baseline Model: Regression for initial benchmarking
+   - Advanced Models: 
+     - Gradient Boosting Machines (XGBoost, LightGBM)
+     - Neural Networks
+     - Ensemble models combining different approaches
+
+5. Hyperparameter Tuning:
+   - Optimizing model performance using grid search techniques
+
+6. Evaluation Metrics:
+   - Assessing model accuracy, precision, recall, Mean Average Precision (MAP), F1 Score and AUC-ROC
+
+7. Feature Importance Analysis:
+   - Identifying key factors driving the prediction results
+
+**Project Constraints:**  
+This project was conducted under class requirements, with a major limitation being the need to reduce the dataset 
+size to under 1GB for processing efficiency.  
