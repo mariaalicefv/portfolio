@@ -1,5 +1,23 @@
-This project had the goal to analyze the stats in college basketball
-The original excel was connected to the API providing the stats -since I don't have access to it anymore, this one is connected
-to an excel file extracted from the API. 
-The spreadsheet includes macros and Power Querry formulas to assist with visualization and the user can toggle between 
-different stats and see the difference between teams, conferences, conference games, non-conference games and all games
+**OBJECTIVE:**  
+The goal of this project was to analyze college basketball statistics to understand the factors influencing the number
+of fouls and free throws. The original Excel spreadsheet was connected to an API providing real-time stats; however, since 
+access to the API is no longer available, the current version is connected to an extracted Excel file. The spreadsheet 
+includes macros and Power Query formulas to assist with visualization. Users can toggle between different stats and compare 
+metrics across teams, conferences, conference games, non-conference games, and all games.  
+
+The client specifically requested an analysis to identify what was driving the low number of fouls and free throws for 
+their school. The project aimed to explore relationships between various statistical factors and answer key questions such 
+as:  
+- Does possession impact the number of fouls?  
+- Does a higher number of three-point shot attempts result in fewer free throws?  
+
+**PROJECT FILES:** 
+1. Excel Spreadsheet – Contains macros and Power Query formulas to facilitate data visualization and comparison across 
+various categories.  
+
+**CONCLUSION:**  
+The analysis concluded that the low number of fouls and free throws was primarily due to the team's style of play rather
+than any specific statistic such as three-point shooting or possession. Using a Power BI dashboard, we generated 
+interactive graphs that allowed users to toggle between different stats and observe their relationships. No strong 
+correlation was found between free throws and any single statistic; instead, the findings suggested that the low free 
+throw numbers were a result of a combination of factors that define the team's playing style.  
