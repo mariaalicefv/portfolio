@@ -29,6 +29,12 @@ This repository showcases selected projects in Python, PowerPoint, and Excel, de
 │ ├─ 📊 MBB2024.xlsm - Excel spreadsheet with macros and Power Query for data visualization  
 │  
 │  
+│── 📁 Pittsburgh Penguins Dashboard/  
+│  Tableau dashboars created to track sponsored post valuations on social media, aging invoices and KPI's.  
+│   ├─ 📊 Penguins - Blinkfire Dashboard.pdf - Social media engagement analysis for sponsorship valuation  
+│   ├─ 📊 Penguins - Aging Trial Balance.pdf - Accounts receivable tracking and KPI monitoring  
+│  
+│  
 │── 📁 Santander_Product_Recommendation/  
 │  Kaggle competition project aimed at improving customer recommendations.  
 │  Features data preprocessing, modeling, and a detailed report  
