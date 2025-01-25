@@ -31,8 +31,8 @@ This repository showcases selected projects in Python, PowerPoint, and Excel, de
 │  
 │── 📁 Pittsburgh Penguins Dashboard/  
 │  Tableau dashboars created to track sponsored post valuations on social media, aging invoices and KPI's.  
-│   ├─ 📊 Penguins - Blinkfire Dashboard.pdf - Social media engagement analysis for sponsorship valuation  
-│   ├─ 📊 Penguins - Aging Trial Balance.pdf - Accounts receivable tracking and KPI monitoring  
+│   ├─ 📈 Penguins - Blinkfire Dashboard.pdf - Social media engagement analysis for sponsorship valuation  
+│   ├─ 📈 Penguins - Aging Trial Balance.pdf - Accounts receivable tracking and KPI monitoring  
 │  
 │  
 │── 📁 Santander_Product_Recommendation/  
