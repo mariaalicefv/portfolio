@@ -1,0 +1,20 @@
+In this folder, I am showcasing two dashboards I developed during my Business Intelligence internship with the Pittsburgh Penguins.
+Please note that due to compliance, numbers and names on the dashboards cannot be shared. Therefore, a PDF file is provided instead of the actual dashboard.
+
+**OBJETIVE:**
+The objective of these dashboards was to facilitate easier visualization and management of key data points, ensuring they remain easy to update and analyze. 
+Both dashboards are interactive and were refreshed on a monthly or bi-weekly basis.
+Data was extracted from the team's database using SQL queries and Excel reports.
+
+- Blinkfire Dashboard
+The goal of this dashboard was to analyze fan engagement on social media. Specifically, it aimed to better understand the value that each post brings to the team’s
+sponsors.
+Insights from this dashboard allow the partnerships team to negotiate contracts based on the value the team delivers to each brand.
+The dashboard consists of multiple pages analyzing social media performance by platform, post type (e.g., videos, images, reels), and brand.
+Key metrics analyzed include the number of posts, impressions, likes, comments, valuation, and more.
+This dashboard helps the team identify which types of posts generate higher engagement and deliver greater value, informing content strategies and sponsorship 
+negotiations.
+
+- Aging Trial Balance Dashboard
+The objective of this dashboard was to provide a clear visualization of outstanding balances by partner, invoice aging by brand, collector, and dollar amount.
+This tool helps the department track receivables more efficiently and monitor key performance indicators (KPIs) at both the brand and collector levels.
